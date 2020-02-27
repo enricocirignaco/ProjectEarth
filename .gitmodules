@@ -1,0 +1,3 @@
+[submodule "libs/python/py532lib"]
+	path = libs/python/py532lib
+	url = git@github.com:enricocirignaco/py532lib.git
