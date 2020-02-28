@@ -1,3 +1,6 @@
+import sys
+sys.path.insert(0, "/home/pi/Documents/git/ProjectEarth/libs/python/py532lib")
+
 from py532lib.i2c import *
 from py532lib.frame import *
 from py532lib.constants import *
