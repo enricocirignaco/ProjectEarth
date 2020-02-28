@@ -1,4 +1,5 @@
 import sys
+
 sys.path.insert(0, "/home/pi/Documents/git/ProjectEarth/libs/python/py532lib")
 
 from py532lib.i2c import *
@@ -9,5 +10,4 @@ pn532 = Pn532_i2c()
 pn532.SAMconfigure()
 
 card_data = pn532.read_mifare().get_data()
-
-print(card_data)
+print(bytes(card_data).hex())
