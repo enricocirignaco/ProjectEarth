@@ -1,3 +1,3 @@
 #!/bin/bash
 
-xdotool ctrl+5
+xdotool key ctrl+5
