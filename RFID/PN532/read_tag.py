@@ -1,6 +1,7 @@
 
 try:
 	import sys
+	from subprocess import call
 
 	sys.path.insert(0, "/home/pi/Documents/git/ProjectEarth/libs/python/py532lib")
 
@@ -25,10 +26,14 @@ try:
 	# check if readed ID match one of the known IDs
 	if readed_id == tag_id:
 		print('1')
+		call("./stamp.sh")
 	elif readed_id[0:16] == galaxys8_id_a:
 		if readed_id[22:32] == galaxys8_id_b:
 			print('1')
+			call("./stamp.sh")
 	else:
 		print('0')
+		call("./wrong_tag.sh")
 except:
 	print("error")
+	call("./error.sh");
