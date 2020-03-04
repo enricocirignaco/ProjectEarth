@@ -1,3 +1,6 @@
+body {
+  font-family: serif;
+}
 
 #redBody {
   background-color: red;
@@ -7,22 +10,48 @@
   background-color: green;
 }
 
-h1{
-  font-size: 15;
-  color: black
+#mainCont {
+  width: 320px;
+  height: 460px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  line-height: 460px;
+  /*border: 10px solid blue;*/
+}
+
+#subCont {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+hr {
+  width: 220px;
+  border-color: black;
+}
+
+h1 {
+  font-size: 40px;
+  color: black;
+
 }
 
 #weekDay {
-  font-size: 10;
+  font-size: 30px;
+  font-weight: bolder;
   color: black;
 }
 
 #date {
-  font-size: 10;
-  color: black
+  font-size: 20px;
+  font-weight: bolder;
+  color: black;
 }
 
 #time {
-  font-size: 14;
+  font-size: 50px;
+  font-weight: bold;
   color: black
 }
