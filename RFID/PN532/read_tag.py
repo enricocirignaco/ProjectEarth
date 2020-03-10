@@ -27,7 +27,6 @@ try:
 		readed_id = pn532.read_mifare().get_data()
 		# convert bytearray to hey string
 		readed_id = bytes(readed_id).hex()
-
 		# check if readed ID match one of the known IDs
 		if readed_id == tag_id:
 			#print('1')
