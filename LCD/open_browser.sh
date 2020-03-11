@@ -3,7 +3,7 @@
 # open chromium browser
 chromium-browser http://time.biral.ch ../webpage/stamp_done.html ../webpage/stamp_needed.html ../webpage/wrong_tag.html ../webpage/error.html --force-device-scale-factor=0.95 --kiosk --disable-infobars &
 
-sleep 10
+sleep 15
 # login in timetool
 xdotool key ctrl+0x30		#100%
 sleep 1
