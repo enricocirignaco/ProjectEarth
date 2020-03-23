@@ -3,4 +3,5 @@
 cd ./setup
 sudo apt-get update
 sudo apt-get upgrade
-sudo setup_lcd.sh
+git submodule update --init --recursive
+sudo ./setup_lcd.sh
