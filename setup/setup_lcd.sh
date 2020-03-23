@@ -1,5 +1,6 @@
 #!/bin/bash
 #install LCD driver and rotate display
 cd ./LCD-show
-sudo ./LCD35-show
-sudo ./rotate.sh 270
+chmod +x LCD35-show
+./LCD35-show
+./rotate.sh 270
