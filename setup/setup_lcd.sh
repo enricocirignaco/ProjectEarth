@@ -20,5 +20,8 @@ cp ./config.txt /boot/config.txt
 #must be the last command of the script (afterwards system will reboot.)
 #install lcd drivers
 cd ./LCD-show
+# update submodule to latest master-commit
+git pull origin master
 chmod +x LCD35-show
-./LCD35-show
+#rotate display to 270° without reboot
+./LCD35-show_no_reboot 270
