@@ -8,6 +8,7 @@ cp ./lightdm.conf /etc/lightdm/lightdm.conf
 
 # copy autostart file to LXDE config directory.
 # run the application automatically on startup.
+# path of the start.sh script must updated in autostart file if changed.
 cp ./autostart /etc/xdg/lxsession/LXDE-pi/autostart
 
 #install lcd drivers (Warning /boot/config.txt will be replaced!)
