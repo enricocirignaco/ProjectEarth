@@ -11,21 +11,21 @@ xdotool mousemove 230 440
 sleep 1
 xdotool click 1
 
-sleep 3
+sleep 1
 # resize page
 xdotool key ctrl+shift+minus	#90%
 sleep 1
 xdotool key ctrl+shift+minus	#80%
 sleep 1
 xdotool key ctrl+shift+minus	#75%
-sleep 1
-xdotool key ctrl+shift+minus	#67%
-sleep 1
-xdotool key ctrl+shift+minus	#50%
+#sleep 1
+#xdotool key ctrl+shift+minus	#67%
+#sleep 1
+#xdotool key ctrl+shift+minus	#50%
 
-sleep 3
+sleep 1
 # minimize sidebar timetool
-xdotool mousemove 116 250
+xdotool mousemove 173 300
 sleep 1
 xdotool mousedown 1
 sleep 1
@@ -33,7 +33,7 @@ xdotool mousemove 5 250
 sleep 1
 xdotool mouseup 1
 sleep 1
-xdotool mousemove 125 250
+xdotool mousemove 190 250
 sleep 1
 xdotool mousedown 1
 sleep 1
