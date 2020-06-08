@@ -2,4 +2,4 @@
 @pcmanfm --desktop --profile LXDE-pi
 @xscreensaver -no-splash
 point-rpi
-@/home/pi/ProjectEarth/start.sh
+@/home/pi/Documents/projects/ProjectEarth/start.sh

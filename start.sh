@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # launch script to change tab on given time
-cd /home/pi/ProjectEarth
+cd /home/pi/Documents/projects/ProjectEarth
 ./LCD/change_stamp_needed.sh &
 
 # launch python script to read RFID
