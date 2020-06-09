@@ -6,7 +6,7 @@ try:
 	from subprocess import call
 
 	# add RFID libraries to Python System Path
-	sys.path.insert(0, "/home/pi/Documents/git/ProjectEarth/libs/python/py532lib")
+	sys.path.insert(0, "/home/pi/Documents/projects/ProjectEarth/libs/python/py532lib")
 	from py532lib.i2c import *
 	from py532lib.frame import *
 	from py532lib.constants import *
