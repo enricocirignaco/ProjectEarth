@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # open chromium browser
-chromium-browser http://time.biral.ch ../webpage/stamp_done.html ../webpage/stamp_needed.html ../webpage/wrong_tag.html ../webpage/error.html --force-device-scale-factor=0.95 --kiosk --disable-infobars &
+chromium-browser http://time.biral.ch ./web/stamp_done.html ./web/stamp_needed.html ./web/wrong_tag.html ./web/error.html --force-device-scale-factor=0.95 --kiosk --disable-infobars &
 
 sleep 15
 # login in timetool
