@@ -23,24 +23,28 @@ xdotool key ctrl+shift+minus	#75%
 #sleep 1
 #xdotool key ctrl+shift+minus	#50%
 
-sleep 1
+#sleep 1
 # minimize sidebar timetool
-xdotool mousemove 173 300
-sleep 1
-xdotool mousedown 1
-sleep 1
-xdotool mousemove 5 250
-sleep 1
-xdotool mouseup 1
-sleep 1
-xdotool mousemove 190 250
-sleep 1
-xdotool mousedown 1
-sleep 1
-xdotool mousemove 10 250
-sleep 1
-xdotool mouseup 1
+#xdotool mousemove 173 300
+#sleep 1
+#xdotool mousedown 1
+#sleep 1
+#xdotool mousemove 5 250
+#sleep 1
+#xdotool mouseup 1
+#sleep 1
+#xdotool mousemove 190 250
+#sleep 1
+#xdotool mousedown 1
+#sleep 1
+#xdotool mousemove 10 250
+#sleep 1
+#xdotool mouseup 1
 
 sleep 5
 # change to stamp needed tab
 xdotool key ctrl+3
+
+sleep 1
+# refresh all tabs in order to avoid expired session
+./refresh_page.sh &
