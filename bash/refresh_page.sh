@@ -4,8 +4,8 @@
 #endless loop
 while true
 do
-	#sleep for 3 minutes
-	sleep 180
+	#sleep for 2 minutes
+	sleep 120
 	#refresh page
 	xdotool key alt+shift+r
 done
