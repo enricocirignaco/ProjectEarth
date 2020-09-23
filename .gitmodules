@@ -1,0 +1,6 @@
+[submodule "setup/LCD-show"]
+	path = ressources/LCD-show
+	url = https://github.com/enricocirignaco/LCD-show.git
+[submodule "libs/python/py532lib"]
+	path = libs/python/py532lib
+	url = https://github.com/enricocirignaco/py532lib.git
